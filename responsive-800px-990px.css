@@ -1,0 +1,74 @@
+@media only screen and (min-width: 800px) and (max-width: 990px){
+    /*Header*/
+    header img{
+        width: 100%;
+    }
+
+    header p{
+        font-size: 80px;
+        letter-spacing: 11px;
+        position: absolute;
+        top: 195px;
+        left: 35px;
+    }
+
+    /*Cards*/
+    div.Card-hover div.card{
+        margin: 52px;
+    }
+
+    /*Parallax*/
+    div.parallax{
+        width: 100%;
+        height: 305px;
+        background-attachment: local;
+    }
+
+    div.parallax p.texto-parallax{
+        font-size: 85px;
+        padding-top: 25px;
+        text-shadow: 0 0 10px black;
+        letter-spacing: 1px;
+    }
+
+    /*Conteúdo - Quadrado*/
+    div.quadrado{
+        padding-bottom: 50px;
+    }
+
+    div.quadrado div.card-quadrado{
+        width: 67%;
+        margin-left: 165px;
+    }
+
+    div.quadrado div.card-quadrado div.conteudo a{
+        margin-top: 70px;
+        margin-right: 272px;
+    }
+
+    /*Vídeo*/
+    div.video{
+        width: 100%;
+    }
+
+    div.video div.part-1{
+        width: 94%;
+        display: flex;
+        margin-left: -20px;
+        align-items: center;
+    }
+
+    div.video div.part-1 h1{
+        position: absolute;
+        width: 57%;
+        height: 45%;
+        padding-top: 43px;
+        left: 275px;
+    }
+
+    div.video iframe{      
+        margin-left: 105px;
+        margin-top: 25px;
+    }
+
+}

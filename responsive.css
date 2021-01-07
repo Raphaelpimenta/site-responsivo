@@ -1,0 +1,122 @@
+@media only screen and (min-width: 50px) and (max-width: 991px){
+
+    nav,
+    nav.sticky{
+        padding: 20px 50px;
+        height: 29px;
+        background-color: black;
+        box-shadow: none;
+        z-index: 1000;
+    }
+
+    ul.menu{
+        position: fixed;
+        top: 69px;
+        left: 0;
+        display: none;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100%; /*Talvez fique legal sem ele*/
+        background-color: #ffffff;
+        transition: all .5s ease-out;
+        z-index: 999;
+        border-top: 3px solid red;
+    }
+
+    button.nav-hamburger{
+        width: 10%;
+        height: 40px;
+        display: block;
+        border: none;
+        margin-top: -5px;
+        background-color: black;
+        outline: none;
+        background-image: url(img/menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+        margin-left: 80%;
+    }
+
+    nav.menu-opened button.nav-hamburger{
+        background-image: url(img/close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+
+    nav.menu-opened ul.menu{
+        display: block;
+    }
+
+    nav.menu-opened ul.menu li{
+        margin-bottom: 30px;
+        font-size: 30px;
+        border-bottom: 2px solid black;
+        padding-bottom: 35px;
+        padding-top: 25px;
+        width: 85%;
+    }
+
+    nav.menu-opened ul.menu li:hover,
+    nav.menu-opened ul.menu li a:hover{
+        background-color: black;
+        color: white;
+        text-shadow: none;
+        border-top: none;
+    }
+
+    nav.menu-opened ul.menu li:hover{
+        border-bottom: 2px solid red;
+    }
+
+    nav.menu-opened ul.menu li a{
+        color: black;
+        padding: 24px 215px;
+    }
+
+    nav div.logo a{
+        color: white;
+        margin-top: -1px;
+        margin-left: -15px;
+        font-size: 33px;
+    }
+
+    nav.sticky div.logo a{
+        color: white;
+        margin-top: -1px;
+    }
+
+}
+
+
+
+@media only screen and (width: 280px){
+    /*Menu*/
+    nav.menu-opened ul.menu li{
+        width: 80%;
+    }
+    nav.menu-opened ul.menu li a{
+        padding: 24px 110px;
+    }
+}
+
+
+
+@media only screen and (width: 320px){
+    /*Menu*/
+    nav.menu-opened ul.menu li a{
+        padding: 24px 140px;
+    }
+}
+
+
+@media only screen and (width: 360px){
+    /*Menu*/
+    nav.menu-opened ul.menu li a{
+        padding: 24px 180px;
+    }
+}

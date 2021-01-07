@@ -1,0 +1,252 @@
+@media only screen and (min-width: 360px) and (max-width: 460px){
+    /*Header*/
+    header img{
+        width: 168%;
+        margin-top: 15px;
+    }
+
+    header p{
+        font-size: 60px;
+        letter-spacing: 8px;
+        position: absolute;
+        top: 180px;
+        left: 20px;
+    }
+
+    div.circulo{
+        margin-left: 81%;
+    }
+
+
+    /*Introdução*/
+    div.intro{
+        display: inline-block;
+        margin-left: 110px;
+    }
+
+    div.intro h2{
+        font-size: 35px;
+        margin-right: -62%;
+    }
+
+    div.intro p.texto-intro{
+        text-align: center;
+        width: 195%;
+        margin: 0 -90px;
+        padding: 10px 30px;
+    }
+
+
+    /*Cards*/
+    div.Card-hover{
+        margin-left: 67%;
+    }
+
+    div.Card-hover div.card{
+        margin: 55px;
+    }
+
+    div.imgCard{
+        margin-right: 38px;
+    }
+
+
+    /*Parallax*/
+    div.parallax{
+        width: 168%;
+        height: 275px;
+        background-attachment: local;
+    }
+
+    div.parallax p.texto-parallax{
+        font-size: 70px;
+        padding-top: 50px;
+        text-shadow: 0 0 10px black;
+        letter-spacing: 1px;
+    }
+
+
+    /*Conteúdo - Quadrado*/
+    div.quadrado{
+        width: 168%;
+        padding-bottom: 40px;
+    }
+
+    h2.quadrado-titulo{
+        font-size: 42px;
+        letter-spacing: 2px;
+    }
+
+    p.quadrado-sub{
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    div.quadrado div.card-quadrado{
+        width: 81%;
+        margin-left: 75px;
+    }
+
+    div.quadrado div.card-quadrado div.conteudo{
+        font-size: 20px;
+    }
+
+    div.quadrado div.card-quadrado div.conteudo h4{
+        font-size: 30px;
+        position: absolute;
+        top: 54px;
+        left: 100px;
+    }
+
+    div.quadrado div.card-quadrado div.icone:before{
+        font-size: 79px;
+    }
+
+    div.quadrado div.card-quadrado div.conteudo a{
+        margin-top: 130px;
+        margin-right: 305px;
+    }
+
+
+    /*Vídeo*/
+    div.video{
+        width: 168%;
+    }
+
+    div.video div.part-1{
+        width: 94%;
+        display: flex;
+        margin-left: -10px;
+        align-items: center;
+    }
+
+    div.video div.part-1 h1{
+        position: absolute;
+        width: 100%;
+        height: 255px;
+        left: 52%;
+        margin-bottom: 15px;
+    }
+
+    div.video iframe{      
+        margin-left: 26px;
+        margin-top: 30px;
+    }
+
+
+    /*Banners*/
+    section.banner{
+        width: 175%;
+    }
+
+    section.banner h6{
+        font-size: 2.4rem;
+    }
+
+    section.banner ul.lista{
+        font-size: 20px;
+    }
+
+    section.centro{
+        margin-left: 0;
+    }
+
+    section.direita{
+        float: left;
+    }
+
+
+    /*Depoimentos*/
+    section.depoimentos{
+        width: 100%;
+    }
+
+    section.depoimentos div.heading{
+        width: 168%;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    div.mensagens{
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 100px;
+    }
+
+    div.mensagens div.parte-1, div.parte-2{
+        width: 125%;
+        margin: 15px 55px;
+        overflow: scroll;
+        font-size: 20px;
+    }
+
+
+    /*Footer*/
+    footer{
+        width: 168%;
+    }
+
+    h1.contato-titulo{
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    p.contato-sub{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    footer div.contato{
+        width: 100%;
+        display: inline-block;
+    }
+
+    footer div.contato div.box{
+        align-items: center;
+        margin-left: 160px;
+        font-size: 16px;
+        letter-spacing: 1.2px;
+    }
+
+    footer form{
+        width: 88%;
+        margin-left: 25px;
+        padding-bottom: 30px;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    footer form h2.titulo-form{
+        font-size: 30px;
+    }
+
+    footer form div.inputBox input{
+        padding: 15px 12px;
+        font-size: 18px;
+    }
+
+    footer form div.inputBox textarea{
+        font-size: 18px;
+    }
+
+    footer form div.inputBox input[type="submit"]{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (width: 375px){
+    /*Vídeo*/
+    div.video iframe{      
+        margin-left: 36px;
+    }
+}
+
+@media only screen and (width: 414px){
+    /*Vídeo*/
+    div.video iframe{      
+        margin-left: 68px;
+    }
+}

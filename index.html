@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive-280px-360px.css">
+    <link rel="stylesheet" href="responsive-360px-460px.css">
+    <link rel="stylesheet" href="responsive-460px-600px.css">
+    <link rel="stylesheet" href="responsive-600px-800px.css">
+    <link rel="stylesheet" href="responsive-800px-990px.css">
+    <link rel="stylesheet" href="responsive-990px-1024px.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de55c37ff7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="no-js">
+        <div class="logo">
+            <a href="#">LOGO</a>
+        </div>
+
+        <button aria-controls="mainMenu" class="nav-hamburger" type="button" aria-expanded="false"></button>
+
+        <ul class="menu" id="mainMenu" aria-expanded="false">
+            <li><a class="btn-menu" href="#Home">Home</a></li>
+            <li><a class="btn-menu" href="#About">Empresa</a></li>
+            <li><a class="btn-menu" href="#Services">Serviços</a></li>
+            <li><a class="btn-menu" href="#Contact">Contatos</a></li>
+        </ul>
+    </nav>
+
+    <header id="Home">
+        <img src="img/capa.jpg" alt="Capa">
+        <p>Força.<br>Potência.<br>Velocidade.</p>
+    </header>
+
+    <div class="circulo" id="About">
+        <div class="bounce-top"></div>
+    </div>
+
+    <div class="intro">
+        <h2>Nossos Valores</h2>
+
+        <p class="texto-intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur veniam non iste reprehenderit, vero architecto at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minima alias rerum repellendus minus quae quis facilis tempore asperiores quasi dolore eveniet totam quaerat magnam, reiciendis officia facere aut dicta! Doloremque qui sint consequuntur ad explicabo tempora optio quasi obcaecati accusamus, hic aliquam velit!</p>
+    </div>
+
+    <section>
+        <div class="Card-hover">
+
+            <div class="card">
+                <div class="imgCard">
+                    <img class="imagem" src="img/card-1.jpg">
+                </div>
+                <div class="artigo">
+                    <h3>Luxuosos</h3>
+    
+                    <p class="texto-card">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, in accusamus magni nesciunt reprehenderit omnis optio! Laudantium debitis in adipisci.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="imgCard">
+                    <img class="imagem" src="img/card-2.jpg">
+                </div>
+                <div class="artigo">
+                    <h3>Esportivos</h3>
+    
+                    <p class="texto-card">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, in accusamus magni nesciunt reprehenderit omnis optio! Laudantium debitis in adipisci.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="imgCard">
+                    <img class="imagem" src="img/card-3.jpg">
+                </div>
+                <div class="artigo">
+                    <h3>Motores</h3>
+    
+                    <p class="texto-card">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, in accusamus magni nesciunt reprehenderit omnis optio! Laudantium debitis in adipisci.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="parallax">
+        <p class="texto-parallax">Mais Elegância.<br>Mais Requinte.</p>
+    </div>
+
+    <section id="Services">
+        <div class="quadrado">
+
+            <div class="heading-quad">
+                <h2 class="quadrado-titulo">Nossos Serviços</h2>
+                <p class="quadrado-sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        
+            <div class="card-quadrado">
+                <div class="icone" data-text="Seguro">
+                    <i class="fas fa-car"></i>
+                </div>
+                <div class="conteudo">
+                    <h4>Seguro</h4>
+                    <p class="texto-quadrado">Lorem ipsum dolor sit amet, consectetur elit. Cras in faucibus ipsum. Nullam at neque. Amet perspiciatis nam neque? Aperiam, inventore voluptatem!</p>
+                    <a href="#">Saiba Mais</a>
+                </div>
+            </div>
+    
+            <div class="card-quadrado">
+                <div class="icone" data-text="Bateria">
+                    <i class="fas fa-car-battery"></i>
+                </div>
+                <div class="conteudo">
+                    <h4>Troca de Bateria</h4>
+                    <p class="texto-quadrado">Lorem ipsum dolor sit amet, consectetur elit. Cras in faucibus ipsum. Nullam at neque. Amet perspiciatis nam neque? Aperiam, inventore voluptatem!</p>
+                    <a href="#">Saiba Mais</a>
+                </div>
+            </div>
+    
+            <div class="card-quadrado">
+                <div class="icone" data-text="Gasolina">
+                    <i class="fas fa-gas-pump"></i>
+                </div>
+                <div class="conteudo">
+                    <h4>Posto de Gasolina</h4>
+                    <p class="texto-quadrado">Lorem ipsum dolor sit amet, consectetur elit. Cras in faucibus ipsum. Nullam at neque. Amet perspiciatis nam neque? Aperiam, inventore voluptatem!</p>
+                    <a href="#">Saiba Mais</a>
+                </div>
+            </div>
+    
+            <div class="card-quadrado">
+                <div class="icone" data-text="Mecânica">
+                    <i class="fas fa-car-crash"></i>
+                </div>
+                <div class="conteudo">
+                    <h4>Reparos de Danos</h4>
+                    <p class="texto-quadrado">Lorem ipsum dolor sit amet, consectetur elit. Cras in faucibus ipsum. Nullam at neque. Amet perspiciatis nam neque? Aperiam, inventore voluptatem!</p>
+                    <a href="#">Saiba Mais</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="video">
+        <div class="part-1">
+            <h1>Jagua F-Type 2020</h1>
+            <p class="texto-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, dolore! Architecto maiores beatae consectetur mollitia hic voluptatibus repellendus quibusdam quisquam, nisi exercitationem a, rerum ducimus cum dignissimos dolores officiis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maiores expedita facilis accusantium. Eum aliquid dignissimos expedita explicabo quo accusamus illo repellendus porro nostrum odio, obcaecati ut nemo. <br> 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi nihil laudantium numquam commodi adipisci voluptatibus, sed dolores aliquid magnam laboriosam perspiciatis ipsa, culpa quis reiciendis voluptatem fugiat voluptatum unde vitae.</p>
+        </div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fdXSqxOowTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <section id="principal">
+        <section class="banner esquerda">
+            <img class="img-banner" src="img/esquerda.jpg">
+            <h6>Conforto</h6>
+            <ul class="lista">
+                <li>4 Portas</li>
+                <li>Automático</li>
+            </ul>
+            <div class="preco-periodo">
+                <a class="preco" href="#">$777.99</a> 
+                <span class="periodo">/ 3 meses</span>
+            </div>
+            <span class="item">Test Drive</span>
+        </section>
+
+        <section class="banner centro">
+            <img class="img-banner" src="img/centro.jpg">
+            <h6>Tecnologia</h6>
+            <ul class="lista">
+                <li>Piloto Automático</li>
+                <li>Sensor de Proximidade</li>
+            </ul>
+            <div class="preco-periodo">
+                <a class="preco" href="#">$888.99</a> 
+                <span class="periodo">/ 4 meses</span>
+            </div>
+            <span class="item">Test Drive</span>
+        </section>
+
+        <section class="banner direita">
+            <img class="img-banner" src="img/direita.jpg">
+            <h6>Performance</h6>
+            <ul class="lista">
+                <li>Aceleração - 3.2s</li>
+                <li>De 0 a 100 km/h</li>
+            </ul>
+            <div class="preco-periodo">
+                <a class="preco" href="#">$999.99</a> 
+                <span class="periodo">/ 6 meses</span>
+            </div>
+            <span class="item">Test Drive</span>
+        </section>
+    </section>
+
+    <section class="depoimentos">
+        <div class="heading">
+            <h1 class="depoimento-titulo">Experiências</h1>
+            <p class="subtitulo">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="mensagens">
+            <div class="parte-1">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae inventore culpa consequuntur, autem ab nobis dolor quos porro architecto maiores, doloremque nulla error ea, non laudantium dicta repudiandae iusto omnis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam natus nemo tempore architecto impedit sed, tenetur dolore blanditiis voluptatum aperiam facere excepturi quasi cum voluptate eos at quod est.</p>
+                <h3 class="nome">Martin Matarazzo<br><span class="cidade">- San Francisco</span></h3>
+            </div>
+    
+            <div class="parte-2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae inventore culpa consequuntur, autem ab nobis dolor quos porro architecto maiores, doloremque nulla error ea, non laudantium dicta repudiandae iusto omnis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam natus nemo tempore architecto impedit sed, tenetur dolore blanditiis voluptatum aperiam facere excepturi quasi cum voluptate eos at quod est.</p>
+                <h3 class="nome">Trevor Phillips<br><span class="cidade">- Toronto</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <footer id="Contact">
+
+        <div class="contato-head">
+            <h1 class="contato-titulo">Fale Conosco</h1>
+            <p class="contato-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veritatis sunt atque.</p>
+        </div>
+
+        <div class="contato">
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="contato-texto">
+                    <h2 class="nome-info">Telefone</h2>
+                    <p class="info">+55 (11) 1234-5678</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contato-texto">
+                    <h2 class="nome-info">E-mail</h2>
+                    <p class="info">contato@concessionaria.com</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="far fa-building"></i>
+                </div>
+                <div class="contato-texto">
+                    <h2 class="nome-info">Concessionária</h2>
+                    <p class="info">Av. Morumbi, 6989 - Jd Morumbi<br>São Paulo/SP<br>CEP: 05650-002</p>
+                </div>
+            </div>
+        </div>
+
+            <form>
+                <h2 class="titulo-form">Enviar Mensagem</h2>
+
+                <div class="inputBox">
+                    <input type="text" required placeholder="Nome Completo">
+
+                    <input type="email" required placeholder="E-mail">
+
+                    <textarea required placeholder="Digite aqui."></textarea>
+
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+
+    </footer>
+
+    <script src="javascript.js"></script>
+    
+</body>
+</html>

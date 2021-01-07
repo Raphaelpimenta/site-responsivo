@@ -1,0 +1,207 @@
+@media only screen and (min-width: 280px) and (max-width: 360px){
+    /*Manu Hamburguer*/
+    button.nav-hamburger{  /*ARRUMAR O MENU*/
+        margin-left: 75%;
+    }
+
+    /*Header*/
+    header img{
+        width: 169%;
+        margin-top: 20px;
+    }
+
+    header p{
+        font-size: 45px;
+        letter-spacing: 8px;
+        position: absolute;
+        top: 140px;
+        left: 25px;
+    }
+
+    div.circulo{
+        margin-left: 81%;
+    }
+
+    /*Introdução*/
+    div.intro{
+        display: inline-block;
+        margin-left: 110px;
+    }
+
+    div.intro h2{
+        font-size: 30px;
+        margin-right: -62%;
+    }
+
+    div.intro p.texto-intro{
+        text-align: center;
+        width: 212%;
+        margin: 0 -90px;
+        padding: 10px 30px;
+    }
+
+    /*Cards*/
+    div.Card-hover{
+        margin-left: 67%;
+    }
+
+    div.Card-hover div.card{
+        margin: 55px;
+    }
+
+    div.imgCard{
+        margin-right: 38px;
+    }
+
+    /*Parallax*/
+    div.parallax{
+        width: 169%;
+        height: 275px;
+        background-attachment: local;
+    }
+
+    div.parallax p.texto-parallax{
+        font-size: 65px;
+        padding-top: 50px;
+        text-shadow: 0 0 10px black;
+        letter-spacing: 1px;
+    }
+
+    /*Conteúdo - Quadrado*/
+    div.quadrado{
+        width: 169%;
+    }
+
+    div.quadrado div.card-quadrado{
+        width: 78%;
+    }
+
+    div.quadrado div.card-quadrado div.icone:before{
+        font-size: 79px;
+    }
+
+    div.quadrado div.card-quadrado div.conteudo a{
+        margin-top: 125px;
+        margin-right: 118px;
+    }
+
+    /*Vídeo*/
+    div.video{
+        width: 169%;
+    }
+
+    div.video div.part-1{
+        width: 108%;
+        display: flex;
+        margin-left: -53px;
+        align-items: center;
+    }
+
+    div.video div.part-1 h1{
+        position: absolute;
+        width: 100%;
+        height: 52%;
+        left: 116px;
+    }
+
+    div.video iframe{      
+        margin-left: -87px;
+        margin-top: 15px;
+    }
+
+    /*Banners*/
+    section.banner{
+        width: 175%;
+    }
+
+    section.centro{
+        margin-left: 0;
+    }
+
+    section.direita{
+        float: left;
+    }
+
+    /*Depoimentos*/
+    section.depoimentos{
+        width: 100%;
+    }
+
+    section.depoimentos div.heading{
+        width: 169%;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    div.mensagens{
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 100px;
+    }
+
+    div.mensagens div.parte-1, div.parte-2{
+        width: 120%;
+        margin: 15px 40px;
+        overflow: scroll;
+        font-size: 20px;
+    }
+
+    /*Footer*/
+    footer{
+        width: 169%;
+    }
+
+    h1.contato-titulo{
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    p.contato-sub{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    footer div.contato{
+        width: 100%;
+        display: inline-block;
+    }
+
+    footer div.contato div.box{
+        align-items: center;
+        margin-left: 100px;
+        font-size: 16px;
+        letter-spacing: 1.2px;
+    }
+
+    footer form{
+        width: 85%;
+        margin-left: 25px;
+        padding-bottom: 30px;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    footer form h2.titulo-form{
+        font-size: 30px;
+    }
+
+    footer form div.inputBox input{
+        padding: 15px 12px;
+        font-size: 18px;
+    }
+
+    footer form div.inputBox textarea{
+        font-size: 18px;
+    }
+}
+
+
+
+@media only screen and (width: 320px){
+    /*Vídeo*/
+    div.video iframe{      
+        margin-left: -18px;
+    }
+}
